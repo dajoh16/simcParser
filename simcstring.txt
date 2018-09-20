@@ -1,0 +1,181 @@
+# SimC Addon 1.10.6
+# 8.0 Note: reforge= is being used as a hacky way to capture item context. This will be changed in 8.1
+
+warrior="Danragh"
+level=120
+race=orc
+region=eu
+server=ragnaros
+role=attack
+professions=alchemy=150/herbalism=150
+talents=3313211
+spec=arms
+
+head=,id=159422,bonus_id=4819/1512/4786,reforge=23,azerite_powers=226/30/476
+neck=,id=158075,bonus_id=4936/4929/4930/1512,reforge=11,azerite_level=21
+shoulder=,id=161460,bonus_id=5120/1492/4786,reforge=3,azerite_powers=433/22
+back=,id=159287,bonus_id=5009/1527/4786,reforge=16
+chest=,id=160636,bonus_id=4823/1492/4786,reforge=5,azerite_powers=435/31
+wrist=,id=159441,gem_id=153707,bonus_id=5008/4802/1537/4786,reforge=16
+hands=,id=155890,bonus_id=5008/1537/4786,reforge=16
+waist=,id=159418,bonus_id=5007/1532/4786,reforge=16
+legs=,id=161648,bonus_id=5071/5128/1562/4786,reforge=56
+feet=,id=160640,bonus_id=4799/1497/4783,reforge=5
+finger1=,id=161671,enchant_id=5939,bonus_id=4986/5129/1562/4783,reforge=39
+finger2=,id=162865,enchant_id=5939,bonus_id=1562/4784,reforge=47
+trinket1=,id=160650,bonus_id=4799/1497/4783,reforge=5
+trinket2=,id=159125,reforge=13
+main_hand=,id=160679,enchant_id=5963,bonus_id=4800/1507/4786,reforge=6
+
+### Gear from Bags
+#
+# Dunecrawler Faceguard (340)
+# head=,id=157961,bonus_id=1532/5136,reforge=28,azerite_powers=196/21/44
+#
+# Helm of Abyssal Malevolence (340)
+# head=,id=159430,bonus_id=4819/1512/4786,reforge=23,azerite_powers=433/462
+#
+# Greathelm of Rezan's Bladeguard (340)
+# head=,id=157929,bonus_id=1532/5136,reforge=28,azerite_powers=435/21/84
+#
+# Soulspun Casque (340)
+# head=,id=155866,bonus_id=4819/1512/4786,reforge=23,azerite_powers=174/30
+#
+# Sea-Brawler's Greathelm (340)
+# head=,id=155885,bonus_id=4819/1512/4786,reforge=23,azerite_powers=118/101
+#
+# Pauldrons of the Horned Horror (340)
+# shoulder=,id=159455,bonus_id=4819/1512/4786,reforge=23,azerite_powers=226/459
+#
+# Dunecrawler Spaulders (340)
+# shoulder=,id=157964,bonus_id=1532/5140,reforge=28,azerite_powers=482/31
+#
+# Lockjaw Shoulderplate (340)
+# shoulder=,id=159407,bonus_id=4819/1512/4786,reforge=23,azerite_powers=174/21
+#
+# Kraken Shell Pauldrons (340)
+# shoulder=,id=159431,bonus_id=4819/1512/4786,reforge=23,azerite_powers=121/459
+#
+# Skyscorcher Pauldrons (340)
+# shoulder=,id=159415,bonus_id=4819/1512/4786,reforge=23,azerite_powers=433/31
+#
+# Raal's Bib (350)
+# back=,id=159294,bonus_id=5002/1522/4786,reforge=16
+#
+# Parrotfeather Cloak (355)
+# back=,id=155884,bonus_id=5006/1527/4786,reforge=16
+#
+# Breastplate of Rezan's Bladeguard (340)
+# chest=,id=157926,bonus_id=1532/5138,reforge=28,azerite_powers=
+#
+# Bone-Fetished Chestplate (325)
+# chest=,id=157894,bonus_id=1517/4785,reforge=26,azerite_powers=
+#
+# Dread Gladiator's Plate Chestguard (355)
+# chest=,id=161743,bonus_id=5107/5128/1547/4786,reforge=25,azerite_powers=
+#
+# Ashvane Warden's Cuirass (340)
+# chest=,id=159440,bonus_id=4819/1512/4786,reforge=23,azerite_powers=433/459
+#
+# Ashvane Warden's Cuirass (340)
+# chest=,id=159440,bonus_id=4819/1512/4786,reforge=23,azerite_powers=450/100
+#
+# Chestguard of the Deep Denizen (340)
+# chest=,id=159408,bonus_id=4819/1512/4786,reforge=23,azerite_powers=121/22
+#
+# Vambraces of Rezan's Bladeguard (345)
+# wrist=,id=157934,gem_id=154127,bonus_id=4803/4802/1537/4783,reforge=28
+#
+# Embalmer's Steadying Bracers (355)
+# wrist=,id=159409,gem_id=154127,bonus_id=5005/4802/1527/4786,reforge=16
+#
+# Soulwarped Vambraces (365)
+# wrist=,id=159449,bonus_id=5009/1537/4786,reforge=16
+#
+# Risen Lord's Oversized Gauntlets (345)
+# hands=,id=159457,bonus_id=4780/1517/4786,reforge=16
+#
+# Bleakweald Handguards (330)
+# hands=,id=158024,enchant_id=5937,bonus_id=4803/1522/4785,reforge=27
+#
+# Belt of the Unrelenting Gale (340)
+# waist=,id=159426,bonus_id=4779/1512/4786,reforge=23
+#
+# Sand-Scoured Greatbelt (355)
+# waist=,id=159442,bonus_id=5005/1527/4786,reforge=16
+#
+# Leadplate Legguards (355)
+# legs=,id=159451,bonus_id=4779/1527/4784,reforge=23
+#
+# Warboots of Absolute Eradication (355)
+# feet=,id=160640,bonus_id=4798/1477/4786,reforge=3
+#
+# Dread Gladiator's Plate Greaves (360)
+# feet=,id=161746,gem_id=153707,bonus_id=4986/4802/5128/1552/4786,reforge=39
+#
+# Thornwoven Band (340)
+# finger1=,id=162548,enchant_id=5938,bonus_id=4779/1512/4786,reforge=23
+#
+# Seal of Questionable Loyalties (355)
+# finger1=,id=158314,enchant_id=5939,bonus_id=4779/1527/4784,reforge=23
+#
+# Dread Aspirant's Ring (325)
+# finger1=,id=162865,enchant_id=5939,gem_id=154127,bonus_id=4802/1517/4785,reforge=47
+#
+# Dread Aspirant's Badge (335)
+# trinket1=,id=162966,bonus_id=1527/4783,reforge=47
+#
+# Prism of Dark Intensity (355)
+# trinket1=,id=161376,bonus_id=4798/1477/4786,reforge=3
+#
+# Kraulok's Claw (355)
+# trinket1=,id=161419,bonus_id=4798/1477/4786,reforge=3
+#
+# Merektha's Fang (345)
+# trinket1=,id=158367,bonus_id=4780/1517/4786,reforge=16
+#
+# Razdunk's Big Red Button (345)
+# trinket1=,id=159611,bonus_id=4779/1517/4783,reforge=23
+#
+# Dread Gladiator's Emblem (360)
+# trinket1=,id=161675,bonus_id=4985/5129/1552/4783,reforge=38
+#
+# Syringe of Bloodborne Infirmity (370)
+# trinket1=,id=160655,bonus_id=4799/1492/4786,reforge=5
+#
+# Dread Gladiator's Badge (350)
+# trinket1=,id=161902,bonus_id=4985/5128/1542/4786,reforge=38
+#
+# Emblem of Zandalar (340)
+# trinket1=,id=158154,bonus_id=4803/1532/4786,reforge=28
+#
+# Vial of Animated Blood (355)
+# trinket1=,id=159625,bonus_id=4779/42/1527/4784,reforge=23
+#
+# Merektha's Fang (340)
+# trinket1=,id=158367,gem_id=154127,bonus_id=4779/4802/1512/4786,reforge=23
+#
+# First Mate's Spyglass (335)
+# trinket1=,id=158163,bonus_id=4803/1527/4783,reforge=26
+#
+# Dinobone Charm (340)
+# trinket1=,id=158155,bonus_id=4803/1532/4786,reforge=28
+#
+# Krokul Mining Pick (160)
+# main_hand=,id=153290,reforge=14
+#
+# Dread Gladiator's Slicer (345)
+# main_hand=,id=161687,gem_id=154127,bonus_id=5110/4802/5129/1537/4786,reforge=25
+#
+# Honorbound Decapitator (340)
+# main_hand=,id=163874,bonus_id=5125/1532/4786,reforge=28
+#
+# Dread Gladiator's Decapitator (360)
+# main_hand=,id=161690,enchant_id=5963,bonus_id=4997/5128/1552/4786,reforge=39
+#
+# Geti'ikku, Cut of Death (350)
+# main_hand=,id=159644,enchant_id=5963,bonus_id=4779/1522/4783,reforge=23
+#
+# Honorbound Protectorate (340)
+# off_hand=,id=163875,bonus_id=5125/1532/4786,reforge=5
+#
