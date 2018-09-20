@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Toon {
+    private int level;
     private String spec;
     private String classification;
     private String region;
@@ -69,6 +70,39 @@ public class Toon {
 
     @Override
     public String toString() {
-        return "Toon{}";
+        StringBuilder sb = new StringBuilder();
+        sb.append(classification);
+        sb.append("=");
+        sb.append(name);
+        sb.append("\n");
+        sb.append("level=");
+        sb.append(level);
+        sb.append("\n");
+        sb.append("race=");
+        sb.append(race);
+        sb.append("\n");
+        sb.append("region=");
+        sb.append(region);
+        sb.append("\n");
+        sb.append("server=");
+        sb.append(server);
+        sb.append("\n");
+        sb.append("role=");
+        sb.append(role);
+        sb.append("\n");
+        sb.append("professions=");
+        sb.append(professions);
+        sb.append("\n");
+        sb.append("talents=");
+        sb.append(talents);
+        sb.append("\n");
+        sb.append("spec=");
+        sb.append(spec);
+        sb.append("\n");
+        for (Equipment eq : equippedItems) {
+            sb.append("\n");
+            sb.append(eq.toString());
+        }
+        return sb.toString();
     }
 }
