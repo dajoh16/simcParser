@@ -1,10 +1,10 @@
 Simulationcraft or Simc is a way to simulate your toon from the game World of Warcraft. Data is extracted from the game through a text format, commonly described as a simc string
 
 An example simc string:
+
 ```
 # SimC Addon 1.10.6
 # 8.0 Note: reforge= is being used as a hacky way to capture item context. This will be changed in 8.1
-
 warrior="Danragh"
 level=120
 race=orc
@@ -14,7 +14,6 @@ role=attack
 professions=alchemy=150/herbalism=150
 talents=3313211
 spec=arms
-
 head=,id=159422,bonus_id=4819/1512/4786,reforge=23,azerite_powers=226/30/476
 neck=,id=158075,bonus_id=4936/4929/4930/1512,reforge=11,azerite_level=21
 shoulder=,id=161460,bonus_id=5120/1492/4786,reforge=3,azerite_powers=433/22
